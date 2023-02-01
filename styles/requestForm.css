@@ -1,0 +1,30 @@
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    border: 1px dotted firebrick;
+    margin: 8px;
+}
+
+.input {
+    margin-top: 10px;
+    width: 100%
+}
+
+#submitRequest {
+    background-color: firebrick;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    margin: 25px 400px 5px 0px;
+}
+
+button:disabled {
+    background-color: gray;
+    color: rgb(91, 91, 91);
+}

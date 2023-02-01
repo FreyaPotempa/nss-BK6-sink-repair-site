@@ -1,0 +1,75 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "3",
+      "plumberId": "1",
+      "date_created": 1675201119082,
+      "id": 1
+    },
+    {
+      "requestId": "5",
+      "plumberId": "1",
+      "date_created": 1675265064948,
+      "id": 2
+    },
+    {
+      "requestId": "4",
+      "plumberId": "1",
+      "date_created": 1675266359656,
+      "id": 3
+    },
+    {
+      "requestId": "7",
+      "plumberId": "1",
+      "date_created": 1675267639747,
+      "id": 4
+    }
+  ],
+  "requests": [
+    {
+      "description": "Tub Repair",
+      "address": "1000 Thousand Way",
+      "budget": "900",
+      "neededby": "2023-02-24",
+      "id": 3
+    },
+    {
+      "description": "Exploded Sink",
+      "address": "123 My Way",
+      "budget": "300",
+      "neededby": "2023-02-10",
+      "id": 4
+    },
+    {
+      "description": "What's happening here",
+      "address": "Wrong Way Rd",
+      "budget": "300",
+      "neededby": "2023-02-02",
+      "id": 5
+    },
+    {
+      "description": "New Service Request",
+      "address": "dont matter none",
+      "budget": "55",
+      "neededby": "2023-02-17",
+      "id": 6
+    },
+    {
+      "description": "Service for sorting",
+      "address": "blipp",
+      "budget": "300",
+      "neededby": "2023-03-04",
+      "id": 7
+    }
+  ]
+}
